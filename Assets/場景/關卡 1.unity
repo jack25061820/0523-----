@@ -2500,6 +2500,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openDoor: 0
   combo: 0
+  prop: 
+  statePlayer: 0
 --- !u!4 &786171854
 Transform:
   m_ObjectHideFlags: 0
@@ -2734,6 +2736,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff28e81e15969184786d96f4527abd0a, type: 3}
+--- !u!1 &838641743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 838641745}
+  - component: {fileID: 838641744}
+  m_Layer: 0
+  m_Name: API
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &838641744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838641743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fcd82747645a74fb4c1d457720b7cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &838641745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838641743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.06586422, y: 1.4544811, z: 5.761755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &855569112
 GameObject:
   m_ObjectHideFlags: 0
@@ -13610,6 +13656,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 768be665aba8b4e4aae7a973ae9616cf, type: 3}
   m_PrefabInstance: {fileID: 1232040110}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1234307079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: d9a1483b77bf10e4e851678ab6c2e54e, type: 3}
+  m_PrefabInstance: {fileID: 617027250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1234307081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234307079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab2e58aa11b05cc439386ec22ffbbb4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrow: {fileID: 38230947}
+  speedTurn: 10.5
+  marble: {fileID: 6701211229340946637, guid: 5df0f3c43cbd8554e93f3fc2b478c53f, type: 3}
+  canShootMarbleTotal: 15
 --- !u!1 &1245559426
 GameObject:
   m_ObjectHideFlags: 0
